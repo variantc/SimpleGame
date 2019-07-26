@@ -10,7 +10,7 @@ public class Man : MonoBehaviour {
 		if (this.transform.rotation.eulerAngles.x > 10f || this.transform.rotation.eulerAngles.x < -10f 
             || this.transform.rotation.eulerAngles.z > 10f || this.transform.rotation.eulerAngles.z < -10f)
         {
-            Debug.Log("here");
+            this.transform.SetParent(null);
             counter += Time.deltaTime;
             if (counter >= 5f)
             {

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4416950379141896}
   - component: {fileID: 114918751889160570}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Formation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 54630710802212662}
   - component: {fileID: 114125135379721052}
   - component: {fileID: 114173529655561566}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 54443424699975224}
   - component: {fileID: 114952069880334010}
   - component: {fileID: 114795764832576116}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 54150561702614696}
   - component: {fileID: 114483699099904050}
   - component: {fileID: 114342293904879018}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4033734979666168}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4444339042755580}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4191430337566192}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 54410080658033582}
   - component: {fileID: 114053339407742138}
   - component: {fileID: 114841750400098414}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4871276536128296}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 54334199678011000}
   - component: {fileID: 114762563930910806}
   - component: {fileID: 114748352020225696}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4698591616052570}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Man (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba85929807859274c89e044613703ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &114952069880334010
 MonoBehaviour:
   m_ObjectHideFlags: 1

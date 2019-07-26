@@ -10,6 +10,9 @@ public class Explosion : MonoBehaviour
     public float power;
 
     public float explosionSpeed;
+
+    float lifeTimer = 0f;
+    float lifeLength = 1f;
     
     void Start()
     {
@@ -28,11 +31,20 @@ public class Explosion : MonoBehaviour
 
     void Update()
     {
-        if (this.transform.localScale.x < radius / 2f)
+        if (this.transform.localScale.x < radius / 1.5f)
         {
             this.transform.localScale += Vector3.one * Time.deltaTime * explosionSpeed;
         }
         else
+        {
+            MeshFilter mesh = GetComponent<MeshFilter>();
+            Destroy(mesh);
+        }
+
+        if (lifeTimer >= lifeLength)
+        {
             Destroy(this.gameObject);
+        }
+        lifeTimer += Time.deltaTime;
     }
 }

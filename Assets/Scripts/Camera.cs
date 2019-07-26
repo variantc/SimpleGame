@@ -33,7 +33,7 @@ public class Camera : MonoBehaviour
         {
             if (ball != null)
             {
-                this.transform.position = startPos + new Vector3(ball.transform.position.x, ball.transform.position.y, ball.transform.position.z) * 0.80f;
+                //this.transform.position = startPos + new Vector3(ball.transform.position.x, ball.transform.position.y, ball.transform.position.z) * 0.80f;
             }
         }
         else
@@ -50,14 +50,14 @@ public class Camera : MonoBehaviour
 
     public void ReturnCamera()
     {
-        this.transform.position -= (this.transform.position - startPos).normalized * Time.deltaTime * returnSpeed;
-        returnSpeed += Time.deltaTime * 50f;
+        //this.transform.position -= (this.transform.position - startPos).normalized * Time.deltaTime * returnSpeed;
+        //returnSpeed += Time.deltaTime * 50f;
 
-        if ((this.transform.position - startPos).magnitude <= 2.5f)
-        {
-            returned = true;
-            this.transform.position = startPos;
-            returnSpeed = 20f;
-        }
+        //if ((this.transform.position - startPos).magnitude <= 2.5f)
+        //{
+        //    returned = true;
+        //    this.transform.position = startPos;
+        //    returnSpeed = 20f;
+        //}
     }
 }

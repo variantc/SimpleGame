@@ -8,7 +8,7 @@ public class Formation : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        this.transform.position -= new Vector3(0f, 0f, Time.deltaTime * speed);
+        this.transform.position -= new Vector3(-Time.deltaTime * speed, 0f, 0f);
     }
 
     public void SetSpeed(float speed)
